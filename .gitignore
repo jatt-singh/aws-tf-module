@@ -1,0 +1,13 @@
+# Local .terraform directory
+.terraform/
+
+# State files (handled by S3 backend, but good to ignore local copies)
+*.tfstate
+*.tfstate.*
+
+# Sensitive variable files
+*.tfvars.json
+
+# If you create secret files, ignore them specifically
+secrets.tfvars
+
